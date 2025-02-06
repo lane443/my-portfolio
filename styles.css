@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+nav a {
+    color: #00aaff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a:hover {
+    color: #ffffff;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin: 40px 0;
+}
+.projects, .contact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.project-card, .contact-card {
+    background: white;
+    padding: 20px;
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.project-card h3, .contact-card h3 {
+    color: #00aaff;
+}
+.contact a {
+    display: block;
+    margin: 10px 0;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.contact a:hover {
+    color: #00aaff;
+}
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
